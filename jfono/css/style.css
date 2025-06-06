@@ -1,0 +1,27 @@
+body{
+    background-image: url("img/fundo1.jpg");
+  /* Outras propriedades para ajustar o background */
+  background-repeat: no-repeat;   /* Evita repetição da imagem */
+  background-size: cover;         /* Faz a imagem cobrir todo o elemento */
+  background-position: center;    /* Centraliza a imagem */ 
+   
+    
+}
+
+
+ul{
+    background-color: #0B1B40;
+}
+
+ul li{
+    color: #ffffff;
+    text-decoration: none;
+    display: inline;
+    font-family: "Lucida Console", "Courier New", monospace;
+    padding-left: 60px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #ffffff;
+}
