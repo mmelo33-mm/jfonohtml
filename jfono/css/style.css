@@ -1,24 +1,26 @@
-body{
-    background-image: url("img/fundo1.jpg");
-  /* Outras propriedades para ajustar o background */
-  background-repeat: no-repeat;   /* Evita repetição da imagem */
-  background-size: cover;         /* Faz a imagem cobrir todo o elemento */
-  background-position: center;    /* Centraliza a imagem */ 
-   
-    
+p{
+    color: #ffffff;
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
+
 
 
 ul{
     background-color: #0B1B40;
+    border-radius: 10px;
 }
 
 ul li{
     color: #ffffff;
     text-decoration: none;
     display: inline;
-    font-family: "Lucida Console", "Courier New", monospace;
-    padding-left: 60px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 200px;
+    font-size: 20px;
+    mouse
 }
 
 ul li a{
