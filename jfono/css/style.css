@@ -9,8 +9,9 @@ p{
 
 
 ul{
-    background-color: #0B1B40;
+    background-color: #051947;
     border-radius: 10px;
+    
 }
 
 ul li{
@@ -18,12 +19,29 @@ ul li{
     text-decoration: none;
     display: inline;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    padding-left: 200px;
-    font-size: 20px;
-    mouse
+    padding-left: 10px;
+    font-size: 25px;
+    
 }
 
 ul li a{
     text-decoration: none;
-    color: #ffffff;
+    text-align: center;
+    color: white;
+}
+
+li{
+    background-color: #051947;
+    color: white;
+    padding: 1px 1px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.4s ease;
+    text-align: center;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+}
+li:hover {
+    background-color: rgb(7, 19, 187);
 }
