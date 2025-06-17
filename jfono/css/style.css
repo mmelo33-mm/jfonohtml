@@ -11,17 +11,21 @@ p{
 ul{
     background-color: #051947;
     border-radius: 10px;
-    
+    display: flex; /* Define o layout flexbox */
+    justify-content: space-evenly; /* Distribui os itens igualmente */
+    padding: 0; /* Remove o padding padrão */
+    margin: 0; /* Remove a margem padrão */
+    list-style: none; /* Remove os marcadores padrão */
 }
 
 ul li{
     color: #ffffff;
     text-decoration: none;
-    display: inline;
+    flex: 1; /* Faz com que cada botão ocupe o mesmo espaço */
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    padding-left: 10px;
+    padding: 10px; /* Ajusta o espaçamento interno */
     font-size: 25px;
-    
+    text-align: center; /* Centraliza o texto */
 }
 
 ul li a{
